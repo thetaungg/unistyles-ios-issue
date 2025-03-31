@@ -84,8 +84,8 @@ importers:
         specifier: ~4.4.0
         version: 4.4.0(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1)
       react-native-unistyles:
-        specifier: 3.0.0-beta.8
-        version: 3.0.0-beta.8(@react-native/normalize-colors@0.77.1)(react-native-edge-to-edge@1.5.0(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native-nitro-modules@0.25.2(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1)
+        specifier: 3.0.0-nightly-20250328
+        version: 3.0.0-nightly-20250328(@react-native/normalize-colors@0.77.1)(react-native-edge-to-edge@1.5.0(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native-nitro-modules@0.25.2(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: ~0.19.13
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3609,8 +3609,8 @@ packages:
       react: '*'
       react-native: '*'
 
-  react-native-unistyles@3.0.0-beta.8:
-    resolution: {integrity: sha512-fMUYTC7+zrXhpyfJ9Z5xmVGHTV2VRsNExQwomjnTWO74M/O/PEg+2jKLJ9MnGyHb/70cFV0mjL7Hl/7Olb1T3w==}
+  react-native-unistyles@3.0.0-nightly-20250328:
+    resolution: {integrity: sha512-6X2ts5gn0wEPXyMYMYnVvxCelRQdhUwlFEuJbr6yN+Uip4uyf6Ga8ZXXm1e+utNy1Hw86JOlFuEuvTuGJzoBtA==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       '@react-native/normalize-colors': '*'
@@ -9051,7 +9051,7 @@ snapshots:
       react-native: 0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1)
       warn-once: 0.1.1
 
-  react-native-unistyles@3.0.0-beta.8(@react-native/normalize-colors@0.77.1)(react-native-edge-to-edge@1.5.0(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native-nitro-modules@0.25.2(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1):
+  react-native-unistyles@3.0.0-nightly-20250328(@react-native/normalize-colors@0.77.1)(react-native-edge-to-edge@1.5.0(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native-nitro-modules@0.25.2(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native@0.77.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@react-native/normalize-colors': 0.77.1
       react: 18.3.1
