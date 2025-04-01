@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native-unistyles'
 import { MD3DarkTheme, MD3LightTheme } from '@stickersmash/ui/styles'
 
+// with this there is no errors
+// import { lightTheme, darkTheme  } from '@stickersmash/ui/theme'
+
 const appThemes = {
     light: MD3LightTheme,
     dark: MD3DarkTheme
