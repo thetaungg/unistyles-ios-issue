@@ -1,0 +1,27 @@
+{
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stickersmash/ui": "workspace:*",
+    "react-native-unistyles": "3.0.0-nightly-20250329",
+    "next": "14.2.26",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-native": "0.77.1",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@expo/next-adapter": "^6.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
