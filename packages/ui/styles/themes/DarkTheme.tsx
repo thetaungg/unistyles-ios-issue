@@ -1,8 +1,5 @@
 import color from 'color';
-import { MD3LightTheme } from './LightTheme';
-import { tokens } from './tokens';
-
-const ref = tokens.md.ref;
+import { commonThemeProperties, ref  } from './common';
 
 export const generateDarkThemeColors = (
     palette: typeof ref.palette,
@@ -90,7 +87,7 @@ export const generateDarkThemeColors = (
 };
 
 export const MD3DarkTheme = {
-    ...MD3LightTheme,
+    ...commonThemeProperties,
     themeName: 'MD3DarkTheme',
     dark: true,
     colors: generateDarkThemeColors(ref.palette, ref.opacity),
